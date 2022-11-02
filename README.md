@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Phase 2 Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This simple application is designed to utilize the Jikan API (https://jikan.moe/) to display search results from MyAnimeList (MAL) (https://myanimelist.net/). The search form will display results either for Anime titles or Manga titles but it will only display the first 25 results from a query. Another feature of the site is the ability to switch from dark to light mode, depending on personal preference.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+1. Select from the drop down menu whether you would like to search for an Anime or a Manga title.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Input title name into the search field (e.g. Naruto, Bleach, One Piece, etc).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Hit 'Submit'.
 
-### `npm test`
+4. Search results will display on the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Clicking on "Learn More" will direct you to the MyAnimeList page for the specified anime/manga.
 
-### `npm run build`
+6. Repeat steps 1-3 to display new search results.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Usage](/images/UsageA.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Usage](/images/UsageC.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Note: If you would like to change the page to light mode, scroll to the bottom of the page and hit the toggle.
 
-### `npm run eject`
+![Lightmode](/images/UsageB.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Status
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+9/14/22 - Version 0.1 Complete
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Will be put on hold until there is time to implement future planned features.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Planned Features
 
-## Learn More
+1. Display Anime/Manga Information without redirecting to the MAL page
+    - Information such as the title, synopsis, genre, air date, etc.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Display more than the first 25 search results either by:
+    - Displaying all search results on one page
+    - Ability to page through results, 25 at a time
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits  
 
-### Code Splitting
+Jikan API (https://jikan.moe/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MyAnimeList (MAL) (https://myanimelist.net/)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This application is by Eric Song who is currently studying the Flex program at Flatiron School.
 
-### Making a Progressive Web App
+Github - https://github.com/ericksong91
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Linkedin - https://www.linkedin.com/in/eric-song-45597062
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Deployment
+Please make sure to update tests as appropriate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
