@@ -1,0 +1,40 @@
+{
+  "penguins": [
+    {
+      "id": 1,
+      "name": "Emperor Penguin",
+      "image": "https://en.wikipedia.org/wiki/Emperor_penguin#/media/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg",
+      "desc": "The emperor penguin is the tallest and heaviest of all living penguin species and is endemic to Antarctica."
+    },
+    {
+      "id": 2,
+      "name": "Adélie Penguin",
+      "image": "https://en.wikipedia.org/wiki/Ad%C3%A9lie_penguin#/media/File:Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_(Pygoscelis_adeliae)_04.jpg",
+      "desc": "The Adélie penguin is a species of penguin common along the entire coast of the Antarctic continent, which is the only place where it is found."
+    },
+    {
+      "id": 3,
+      "name": "Australian Little Penguin",
+      "image": "https://en.wikipedia.org/wiki/Eudyptula_novaehollandiae#/media/File:Eudyptula_minor_Bruny_1.jpg",
+      "desc": "The Australian little penguin, also called the fairy penguin, is a species of penguin from Australia and the Otago region of New Zealand"
+    },
+    {
+      "id": 4,
+      "name": "Humboldt Penguin",
+      "image": "https://en.wikipedia.org/wiki/Humboldt_penguin#/media/File:Spheniscus_humboldti_20070116.jpg",
+      "desc": "The Humboldt penguin is a medium-sized penguin. It resides in South America, its range mainly contains most of coastal Peru."
+    },
+    {
+      "id": 5,
+      "name": "Yellow-eyed Penguin",
+      "image": "https://en.wikipedia.org/wiki/Yellow-eyed_penguin#/media/File:Yellow-eyed_Penguin_MC.jpg",
+      "desc": "The yellow-eyed penguin, known also as hoiho or tarakaka, is a species of penguin endemic to New Zealand."
+    },
+    {
+      "id": 6,
+      "name": "Erect-crested Penguin",
+      "image": "https://en.wikipedia.org/wiki/Erect-crested_penguin#/media/File:Erect-crested_penguin_(Eudyptes_sclateri).jpg",
+      "desc": "The erect-crested penguin is a penguin endemic to the New Zealand region"
+    }
+  ]
+}
