@@ -14,7 +14,7 @@ function PenguinList() {
         return <PenguinCard key={pen.id} name={pen.name} desc={pen.desc} img={pen.image} />
     })
 
-    console.log(penguinList)
+    console.log(penguins)
 
     return (
         <div>

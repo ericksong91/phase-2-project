@@ -1,6 +1,9 @@
 import React from 'react';
 
 function PenguinCard({ name, desc, img }) {
+
+    console.log(img)
+
     return (
         <div className="card">
             <h1>{name}</h1>
